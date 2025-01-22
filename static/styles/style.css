@@ -67,7 +67,7 @@ main {
 
 h2 {
     font-size: 2em;
-    margin-top: 0;
+    margin-top: 20px; /* Add top margin to create space from the menu */
     color: #4CAF50;
 }
 
@@ -92,6 +92,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    font-size: 0.9em; /* Adjust font size for better readability */
 }
 
 /* Responsive Design */
@@ -126,7 +127,8 @@ footer {
     }
 
     footer {
-        padding: 10px;
+        padding: 15px; /* Increase padding for better spacing */
+        font-size: 0.8em; /* Adjust font size for better readability */
     }
 }
 
@@ -145,7 +147,7 @@ footer {
 
     main {
         padding: 20px;
-        margin: 200px auto 20px auto; /* Adjust margin for smaller screens */
+        margin: 180px auto 20px auto; /* Adjust margin for smaller screens */
     }
 
     .navbar {
@@ -161,6 +163,7 @@ footer {
     }
 
     footer {
-        padding: 10px;
+        padding: 20px; /* Increase padding for better spacing */
+        font-size: 0.8em; /* Adjust font size for better readability */
     }
 }
