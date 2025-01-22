@@ -109,8 +109,12 @@ footer {
     }
 
     main {
-        padding: 30px;
+        padding: 20px;
         margin: 180px auto 20px auto; /* Adjust margin for mobile */
+    }
+
+    .navbar {
+        top: 100px; /* Adjust to avoid overlapping with header */
     }
 
     .navbar ul {
@@ -140,8 +144,12 @@ footer {
     }
 
     main {
-        padding: 40px;
-        margin: 200px auto 20px auto; /* Larger margin for smaller screens */
+        padding: 20px;
+        margin: 200px auto 20px auto; /* Adjust margin for smaller screens */
+    }
+
+    .navbar {
+        top: 100px; /* Adjust to avoid overlapping with header */
     }
 
     .navbar ul {
