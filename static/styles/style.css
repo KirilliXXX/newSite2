@@ -25,7 +25,7 @@ h1 {
 }
 
 .navbar {
-    background-color: #4CAF50;
+    background-color: rgba(76, 175, 80, 0.9); /* Green color with same transparency as header */
     padding: 10px 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -109,11 +109,20 @@ footer {
     }
 
     main {
-        padding: 10px;
+        padding: 30px;
+        margin: 180px auto 20px auto; /* Adjust margin for mobile */
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
     }
 
     footer {
-        padding: 5px;
+        padding: 10px;
     }
 }
 
@@ -131,10 +140,19 @@ footer {
     }
 
     main {
-        padding: 5px;
+        padding: 40px;
+        margin: 200px auto 20px auto; /* Larger margin for smaller screens */
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
     }
 
     footer {
-        padding: 5px;
+        padding: 10px;
     }
 }
