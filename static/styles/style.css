@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('../images/фон_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #444;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-bottom: 80px; /* Add padding to the bottom */
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.inserted-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: contain;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
